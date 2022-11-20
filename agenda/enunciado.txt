@@ -1,0 +1,9 @@
+Crie um programa em JAVA para cadastrar uma agenda telefônica em um arquivo texto:
+•Cadastrar nome e telefone (dica: grave o nome em uma linha e o telefone em outra)
+•O programa deve permitir incluir novos nomes/telefones;
+•Fazer a consulta de nomes existentes.
+
+Desafio:  (vale mais 0,5 pontos)
+•Alterar nome ou telefone existentes;
+•Excluir nome/telefone da lista.
+•Dica: para substituir o arquivo, passar false no segundo parâmetro do FileWriter
