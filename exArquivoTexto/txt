@@ -1,0 +1,52 @@
+import java.io.*;
+public class arquivo1 
+{
+    public static void salvar(String arquivo, String conteudo, boolean adicionar)throws IOException
+    {
+        FileWriter fw = new FileWriter(arquivo, adicionar);
+        fw.write(conteudo);
+        fw.close();
+    }
+    
+    public static String carregar(String arquivo) throws FileNotFoundException, IOException
+    {
+        File arq = new File(arquivo);
+        if(!arq.exists()){
+            return null;  
+        }
+        BufferedReader br = new BufferedReader(new FileReader(arquivo));
+        String saida = "";
+        String linha;
+        while((linha = br.readLine())!= null )
+        {
+            saida += linha + "\n";
+        }
+        br.close();
+        return saida;
+    }
+    
+    
+    public class Consulta {
+
+    public static boolean pesquisar(String arquivo, String pesquisa) throws FileNotFoundException, IOException {
+        boolean retorno = false;
+        File file = new File(arquivo);
+        if (!file.exists()) {
+            System.out.println("arquivo nao encontrado.");
+            return retorno;
+        }
+        BufferedReader br = new BufferedReader(new FileReader(arquivo));
+        String saida = "";
+        String linha;
+        while ((linha = br.readLine()) != null) {
+            System.out.println(linha);
+            if (linha.equals(pesquisa)) {
+                retorno = true;
+                break;
+            }
+        }
+        br.close();
+        return retorno;
+    }
+    
+    
