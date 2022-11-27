@@ -1,0 +1,20 @@
+
+public class opcional {
+    
+    private int op;
+
+    public opcional(int op) {
+        this.op = op;
+    }
+
+    public int getOp() {
+        return op;
+    }
+
+    public void setOp(int op) {
+        this.op = op;
+    }
+
+    
+
+}

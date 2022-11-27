@@ -1,0 +1,46 @@
+Fazer um programa que calcule o valor de venda do veículo de acordo com o modelo selecionado pelo cliente:
+
+ O programa deve permitir a escolha do Veículo, veículos disponíveis:
+Fusca, Brasilia e Opala
+
+Na sequencia deve pedir o modelo do veículo, todos os veículos tem os mesmos modelos:
+Basic, Sedan, Sport e Executive
+
+Depois de escolher o modelo, deve ser selecionado os opcionais, onde é possível escolher até dois opcionais por veículo:
+Trio Elétrico, Ar Condicionado, Direção Hidráulica, Bancos de Couro, Multimidia.
+
+Observação: Os modelos Sedan já possuem Trio Elétrico e ar condicionado de série, não sendo possível adicionar esses opcionais.
+
+Nos modelos Sport e Executive o único opcional disponível é a central multimidia, todos os outros opcionais já são de série.
+
+ 
+
+Tabela de Preços:
+
+Fusca:
+·         Basic – R$ 20.000,00
+·         Sedan – R$ 27.000,00
+·         Sport – R$ 28.500,00
+·         Executive – 32.000,00
+
+Brasilia:
+·         Basic – R$ 20.700,00
+·         Sedan – R$ 27.900,00
+·         Sport – R$ 30.500,00
+·         Executive – 35.000,00
+
+Opala:
+·         Basic – R$ 25.000,00
+·         Sedan – R$ 29.200,00
+·         Sport – R$ 31.500,00
+·         Executive – 37.000,00
+
+ 
+
+- Cada um dos veículos poderá conter os seguintes opcionais:
+·         Trio Eletrico – R$ 900,00
+·         Ar condicionado – R$ 1.200,00
+·         Direção hidráulica – R$ 1.350,00
+·         Bancos de Couro – R$ 1.850,00
+·         Multimidia – R$ 3.200,00
+
