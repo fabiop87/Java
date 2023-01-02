@@ -1,2 +1,1 @@
-# Exercicios ou backup de provas da faculdade
-Talvez coloque mais lps por preguiça mas ta salvo ai
+Backup de exercicios e provas de java da faculdade.
